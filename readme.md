@@ -1,5 +1,5 @@
-Philwinkle_DeadlockRetry
-========================
+Philwinkle_DeadlockRetry, special Zookal Version
+================================================
 
 **Release Notes**
 
@@ -8,6 +8,8 @@ v0.1.2
 - Add composer.json
 - Changed code pool from local to community
 - Created static helper
+- Optimized Pdo Class for "faster" execution when DeadlockRetry is disabled
+- Cleaner code
 
 v0.1.1
 
