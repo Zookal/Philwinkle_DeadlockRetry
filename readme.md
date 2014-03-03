@@ -1,6 +1,10 @@
 Philwinkle_DeadlockRetry, special Zookal Version
 ================================================
 
+> Please avoid using that module in production. If possible switch to Magento 1.8 or if you are stick to Magento 1.7 fix the deadlock bugs in
+Mage_Sales_Model_Abstract and Mage_CatalogInventory_Model_Observer::reindexQuoteInventory. For any more questions please ask @SchumacherFM
+
+
 **Release Notes**
 
 v0.1.2
